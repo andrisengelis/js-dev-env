@@ -24,3 +24,5 @@ localtunnel - hosts locally
 ngrok - hosts locally, adds security auth token
 surge
 now
+
+Automation

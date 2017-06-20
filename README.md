@@ -34,3 +34,14 @@ Transpilers
 Babel - latest to ES5
 TypeScript - TypeSafe
 elm? - functional
+
+Bundlers
+
+ES6 - future
+Browserify - the first, vast plugin base, simple
+WebPack - established, versatile
+RollUp - treeshaking +++
+JSPM - 
+
+experiment with sourcemap settings
+

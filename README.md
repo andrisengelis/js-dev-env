@@ -26,3 +26,11 @@ surge
 now
 
 Automation
+Grunt (File oriented)
+Gulp (Memory oriented)
+npm Scripts
+
+Transpilers
+Babel - latest to ES5
+TypeScript - TypeSafe
+elm? - functional

@@ -56,4 +56,39 @@ ES Lint
 
 npm eslint-watch for file watching
 
+Testing /integration
 
+	Framework
+		+ Mocha - popular, does not include assertion library
+		Jasmine - popular, assertion lib built in
+		tape - leanest
+		qunit
+		ava
+		jest - popular for react, nice wrapper for jasmine, facebook could be future
+	Assertion Library - declare what you expect
+		+chai - popular
+		should.js
+		expect
+	Helper library 
+		+jsdom - run tests without browser
+		cheerio - jquery for the server, query dom using selectors
+	where to run tests
+		browser (karma, testem) - more config, slower
+		headless browser (phantomjs) - no user interface
+		in-memory dom (jsdom) - lighter weight alternative to simulate dom
+	where to place tests
+		centralized - mocha (avoids noise to source code); seperation does not makes senses in JS
+		+alongside - 
+
+		naming *.spec.js *.test.js
+	when to run tests
+		+unit tests should run every time the file is saved - rapid feedback, facilated tDD
+		integration tests can be run separete
+
+Continous integration
+	+travis (linux) hosted solution
+	+appveyor (windows)
+	jenkins (alt popular option) self hosted
+	circle ci
+	sempahore
+	snapci

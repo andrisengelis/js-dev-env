@@ -92,3 +92,33 @@ Continous integration
 	circle ci
 	sempahore
 	snapci
+
+HTTP Calls
+
+  Node
+    http | low level
+    +request | higher level
+  
+  Browser
+    XMLHttpRequest - native way to be done
+    jquery - logical if jquery is used
+    framework based - angular
+    +Fetch - standar proposed, not everybody natively supports. use polyfill (isomorphic)
+
+  Node & browser (file size or features)
+    isomorphic-fetch
+    xhr (npm package)
+    super-agent (good framework)
+    axios (clean promised based api)
+
+    for specific browsers polyfill.io
+
+  nock - for mocking http
+  api-mock
+  json-server (fake db using static json)
+  json schema faker (generates fake data) good for catching edge cases with random data
+  faker.js
+  chance.js
+  randexp.js
+  
+

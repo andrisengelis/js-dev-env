@@ -45,3 +45,15 @@ JSPM -
 
 experiment with sourcemap settings
 
+linter
+
+ES Lint
+	Configuration file format?
+	Which Rules
+	Warning or Errors
+	Plugins for specific style github awesome eslint
+	start with preset (recomended, or airbnb; xo; standard JS)
+
+npm eslint-watch for file watching
+
+
